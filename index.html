@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript_Buoi4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              Bài 1 : Chương trình xuất 3 số theo thứ tự tăng dần
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="txt">Nhập số 1</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtSo1"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+                <label for="txt">Nhập số 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtSo2"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+                <label for="txt">Nhập số 3</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtSo3"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+              </div>
+              <button id="btnSapXep3So" class="btn btn-success">
+                Sắp xếp 3 số
+              </button>
+            </div>
+            <div id="footerThongBaoBai1" class="card-footer text-muted"></div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Bài 2 : Chào hỏi các thành viên trong gia đình với các đặt điểm
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="txt">Ai đang sử dụng máy</label>
+                <select id="optchaoHoi" name="cars" class="custom-select">
+                  <option value="B">Bố</option>
+                  <option value="M">Mẹ</option>
+                  <option value="A">anh Trai</option>
+                  <option value="E">Em gái</option>
+                </select>
+              </div>
+              <button id="btnChaoHoi" class="btn btn-success">
+                Chào hỏi
+              </button>
+            </div>
+            <div id="footerThongBaoBai2" class="card-footer text-muted"></div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Bài 3 : Chương trình xuất ra có bao nhiêu số lẻ và bao nhiêu số
+              chẵn.
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="txt">Nhập số 1</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtSoN1"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+                <label for="txt">Nhập số 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtSoN2"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+                <label for="txt">Nhập số 3</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtSoN3"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+              </div>
+              <button id="btnXuatSoNguyen" class="btn btn-success">
+                Xuất ra số nguyên
+              </button>
+            </div>
+            <div id="footerThongBaoBai3" class="card-footer text-muted"></div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Bài 4 : Chương trình cho nhập 3 cạnh của tam giác
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="txt">Cạnh a</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtCanha"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+                <label for="txt">Cạnh b</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtCanhb"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+                <label for="txt">Cạnh c</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txtCanhc"
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+              </div>
+              <button id="btnTamGiac" class="btn btn-success">
+                Tam giác gì
+              </button>
+            </div>
+            <div id="footerThongBaoBai4" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
